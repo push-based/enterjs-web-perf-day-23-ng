@@ -154,17 +154,7 @@ import { fromEvent, map, takeUntil } from 'rxjs';
 
 
 ngOnInit() {
-    // rotation value on mouse enter
-  const rotate$ = fromEvent<MouseEvent>(this.elementRef.nativeElement, 'mouseenter')
-        .pipe(
-                map(({ pageX, target }) => {
-                  const pos = determineDirection(pageX, target as HTMLElement);
-
-                  return pos === 0
-                         ? `rotate(${this.rotationDegree}deg)`
-                         : `rotate(-${this.rotationDegree}deg)`;
-                })
-        );
+  // reset rotatipon on mouseleave
   const reset$ =  fromEvent(this.elementRef.nativeElement, 'mouseleave').pipe(
           map(() => `rotate(0deg)`)
   );
