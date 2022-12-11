@@ -1,5 +1,7 @@
 # ChangeDetectionStrategy local cd (structural directives) exercises
 
+check out following repository to do the exercise https://github.com/push-based/ng-local-cd
+
 In this exercise we will focus on advanced runtime & bootstrap optimizations in angular applications by using the power
 of `Structural Directives`.
 
