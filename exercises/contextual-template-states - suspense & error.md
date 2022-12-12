@@ -14,6 +14,8 @@ in a very developer friendly way.
 In this exercise we want to make use of the `rxLet` directive in order to provide our users contextual state information
 derived from network request we perform to receive values for the users search input.
 
+![contextual-state-ngIf](https://github.com/push-based/workshop-exercises/blob/main/angular-performance/images/contextual-template-states/contextual-state--ngIf.PNG)
+
 ### Initial Suspense State
 
 As a first step, let's handle the suspense state of the template (the loader). 
@@ -143,6 +145,7 @@ the `throttling` dropdown selection.
 ng serve
 ```
 
+  ![contextual-state-ngIf](https://github.com/push-based/workshop-exercises/blob/main/angular-performance/images/contextual-template-states/contextual-state--rxLet.PNG)
 
 ## Bonus: MovieSearchControl
 
