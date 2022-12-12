@@ -97,6 +97,8 @@ template: `
 ```
 
 </details>
+  
+  ![in-usage](https://github.com/push-based/workshop-exercises/blob/main/angular-performance/images/change-detection/dirty-checks-in-use.PNG)
 
 ## Evaluate initial state of the application
 
