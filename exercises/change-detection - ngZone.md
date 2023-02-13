@@ -131,7 +131,7 @@ Get rotation value from `mouseenter` event:
 
 ngOnInit() {
     // rotation value on mouse enter
-  const rotate$ = oFromEvent<MouseEvent>(this.elementRef.nativeElement, 'mouseenter')
+  const rotate$ = fromEvent<MouseEvent>(this.elementRef.nativeElement, 'mouseenter')
         .pipe(
                 map(({ pageX, target }) => {
                   const pos = determineDirection(pageX, target as HTMLElement);
