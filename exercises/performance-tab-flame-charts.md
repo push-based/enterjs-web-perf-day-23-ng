@@ -117,4 +117,4 @@ multiple recordings directly next to each other.
 In this exercise you can now investigate the flame charts on your own and try to find suspicious tasks that
 potentially could be reduced, moved or erased completely.
 
-Please not down your findings, so we can discuss them afterwards :-).
+Please note down your findings, so we can discuss them afterwards :-).

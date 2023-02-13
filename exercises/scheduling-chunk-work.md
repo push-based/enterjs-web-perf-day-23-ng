@@ -1,6 +1,5 @@
 # Scheduling Exercise: Split Template Work
 
-
 We learned about how we can use scheduling techniques in order to split up hard work in smaller
 pieces. Let's go ahead and split a piece of work into a new chunk!
 
