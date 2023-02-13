@@ -33,5 +33,6 @@ export class AppShellComponent implements OnInit {
       .subscribe(() => {
         this.sideDrawerOpen = false;
       });
+
   }
 }

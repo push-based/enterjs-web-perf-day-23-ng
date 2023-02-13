@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import {
   UntypedFormArray,
   UntypedFormControl,
@@ -43,7 +43,9 @@ export class MyMovieListComponent implements OnInit {
 
   favoritesForm = new UntypedFormGroup({ favorites: this.favorites });
 
-  constructor(private movieService: MovieService) {}
+  constructor(private movieService: MovieService, private cdRef: ChangeDetectorRef) {
+
+  }
 
   ngOnInit(): void {
     this.favorites.valueChanges

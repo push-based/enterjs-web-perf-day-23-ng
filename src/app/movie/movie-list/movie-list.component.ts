@@ -1,5 +1,5 @@
 import {
-  AfterViewInit,
+  AfterViewInit, ChangeDetectionStrategy,
   Component,
   ElementRef,
   Input,
@@ -13,6 +13,7 @@ import { MovieModel } from '../movie-model';
   selector: 'movie-list',
   templateUrl: './movie-list.component.html',
   styleUrls: ['./movie-list.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MovieListComponent implements AfterViewInit {
   @Input() movies!: MovieModel[];

@@ -12,6 +12,7 @@ import { DarkModeToggleModule } from '../ui/component/dark-mode-toggle/dark-mode
 import { SearchBarModule } from '../ui/component/search-bar/search-bar.module';
 import { AppShellComponent } from './app-shell.component';
 import { LazyModule } from '../shared/cdk/lazy/lazy.module';
+import {DirtyCheckModule} from "../shared/dirty-checks/dirty-check.module";
 
 @NgModule({
   declarations: [AppShellComponent],
@@ -27,6 +28,7 @@ import { LazyModule } from '../shared/cdk/lazy/lazy.module';
     HttpClientModule,
     RouterModule,
     FormsModule,
+    DirtyCheckModule,
   ],
   exports: [AppShellComponent],
   providers: [IconRegistry],

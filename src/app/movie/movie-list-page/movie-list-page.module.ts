@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ElementVisibilityDirective } from '../../shared/cdk/element-visibility/element-visibility.directive';
 import { MovieModule } from '../movie.module';
 import { MovieListPageComponent } from './movie-list-page.component';
+import {DirtyCheckModule} from "../../shared/dirty-checks/dirty-check.module";
 
 const routes: Routes = [
   {
@@ -19,6 +20,7 @@ const routes: Routes = [
     CommonModule,
     MovieModule,
     ElementVisibilityDirective,
+    DirtyCheckModule,
   ],
 })
 export class MovieListPageModule {}
