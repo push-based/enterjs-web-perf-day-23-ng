@@ -9,6 +9,8 @@ import { MovieModel } from '../movie-model';
 export class MovieCardComponent implements OnInit {
   @Input() movie!: MovieModel;
 
+  @Input() index!: number;
+
   @Output() selected = new EventEmitter<MovieModel>();
 
   ngOnInit() {

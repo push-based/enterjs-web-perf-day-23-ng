@@ -2,7 +2,8 @@
   <movie-card
     (selected)="navToDetail($event)"
     [movie]="movie"
-    *ngFor="let movie of movies">
+    [index]="i"
+    *ngFor="let movie of movies; let i = index">
 
   </movie-card>
 </div>
